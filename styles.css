@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://1000marcas.net/wp-content/uploads/2021/02/Claro-Logo-2004.png'); 
+    /*background-repeat: repeat;*/
+    padding: 0;
+    
+  }
+  
+  #form-container {
+    background-color:#fafafa83 ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    position: relative;
+    right: 1%;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .message {
+    margin-top: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+/*.hidden {
+    display: none;
+  }*/
+
+.main-container {
+    margin: 20px;
+    border: red;
+    border-radius: 8px;
+    display: flex;
+  }
+   
+  .response-container {
+    margin-top: 20px;
+    width: 60%;
+    max-height: 500px;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    padding: 10px;
+    background-color: #e9d6d6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 1%;
+       
+  }
+
+  
+  
+  
+  
