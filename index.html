@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actualizar Usuarios</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="main-container" class="main-container">
+    <div id="form-container">
+      <label for="userId">ID Usuario(Login):</label>
+      <input type="text" id="userId" placeholder="Ingresa id de usuario">
+
+      <label for="uemail">Nuevo Email:</label>
+      <input type="text" id="uemail" placeholder="Ingresa el nuevo Email">
+
+      <button onclick="updateUser()">Actualizar</button>
+      <button onclick="getUser()">Consultar</button>
+      <button onclick="clearInfo()">Limpiar</button>
+      <button onclick="executeMassive()">Procesar Archivo</button>
+      <input type="file" id="fileInput" accept=".txt, .csv" onchange="processFile()">
+    </div>
+
+    <div id="response-container" class="response-container hidden">
+      <div class="message" id="message"></div>
+    </div>    
+  </div>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="scriptuser.js"></script>
+</body>
+</html>
